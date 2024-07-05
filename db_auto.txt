@@ -1,0 +1,14 @@
+id_auto                     INT                     UNSIGNED        PRIMARY KEY     AUTO_INCREMENT
+marca                       VARCHAR(50)                                             NOT_NULL
+modello                     VARCHAR(50)                                             NOT_NULL
+colore                      VARCHAR(20)
+targa                       VARCHAR(20)                                             NOT_NULL
+carburante                  VARCHAR(50)                                             NOT_NULL
+cilindrata                  INT                     UNSIGNED                        NOT_NULL
+potenza                     INT                     UNSIGNED                        NOT_NULL
+anno_immatricolazione       DATE                                                    NOT_NULL
+n_km                        INT                     UNSIGNED                        NOT_NULL
+optional                    TEXT
+prezzo                      DECIMAL(15, 2)          UNSIGNED
+disponibilità               BOOLEAN                                                 NOT_NULL
+
